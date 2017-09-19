@@ -20,6 +20,7 @@ bin/neuralmonkey-train tests/beamsearch.ini
 bin/neuralmonkey-train tests/self-critical.ini
 
 bin/neuralmonkey-train tests/small.ini
+bin/neuralmonkey-train tests/chrf.ini
 bin/neuralmonkey-train tests/small_sent_cnn.ini
 bin/neuralmonkey-run tests/small.ini tests/test_data.ini
 bin/neuralmonkey-server --configuration=tests/small.ini --port=5000 &
